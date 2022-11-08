@@ -7,7 +7,11 @@
 //          console.log(number);
 // }
 let fruits=['apple', 'banana','orange'];
-console.log("Index of banana is:",fruits.indexOf('banana'));
+let indexOfbanana=fruits.indexOf('banana');
 console.log(fruits);
-fruits.pop()
+fruits[indexOfbanana]='Mango';
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.push('Watermelon');
 console.log(fruits);
